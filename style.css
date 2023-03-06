@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header h1{
+    background: #000;
+    margin: 0px;
+    padding: 2px;
+    color: #fff;
+    text-align: center;
+}
+
+.logo{
+    padding: 3px;
+    display: flex;
+    background-image: linear-gradient(180deg, black, #000000bf);
+    margin-right: auto;
+    justify-content: center;
+}
+
+.logo img{
+    border-radius: 10px 10px 98px 98px;
+}
+
+header ul{
+    display: inline-flex;
+    background: black;
+    margin: auto;
+    width: 100%;
+}
+
+nav{
+    width: auto;
+    margin: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+nav a:hover{
+    font-size: 20px;
+    background: #00000091
+}
+
+
+
+.slide img{
+    width: 100%;
+}
+
+.container1 h1{
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+}
+
+.boxcontainer1{
+    display: flex;
+    padding: 10px 200px 10px 200px;
+    
+}
+
+.boxcontainer1 div{
+    padding: 10px;
+    margin: 13px;
+    background-image: linear-gradient(178deg, black, #000000b8);
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 4px 4px 6px #000;
+    /*display: inline-block;
+    width: 25%;*/
+}
+
+.boxcontainer1 div h2{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.boxcontainer1 div a{
+    color: #fff;
+    background: chocolate;
+    padding: 5px;
+    border-radius: 6px;
+    float: right;
+}
+
+.boxcontainer1 div a:hover{
+    background: rgb(107, 105, 103);
+}
+
+.container2{
+    background: #000;
+    color: #fff;
+    padding: 10px 160px 10px 160px
+}
+
+.container2 h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.audiosbox{
+    margin: auto;
+    padding: 0px;
+    width: auto;
+    columns: 3;
+}
+
+.container2 div > div:nth-child(1) > h2{
+    margin: 10px;
+}
+.audiosbox div{
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    border-radius: 10px;
+    width: 306px;
+    height: 200px;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 6px #fff;
+}
+
+.audiosbox div:hover{
+    padding: 20px;
+}
+
+
+.audiosbox div audio{
+    margin: auto;
+}
+ 
+/*celular*/
+@media (max-width:670px) {
+    .boxcontainer1{
+    display: block;
+    padding: 0px;
+}
+}
+
+@media (max-width:670px) {
+    .container2{
+    padding: 0px;
+}
+}
+
+@media (max-width:670px) {
+    .audiosbox div{
+    padding: 0px;
+    margin-left: 22px;
+
+}
+}
+
+@media (max-width:670px) {
+    .audiosbox{
+        columns: 1;
+}
+}
+
+@media (max-width:670px) {
+    .body{
+        padding: 12px;
+}
+}
