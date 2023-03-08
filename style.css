@@ -140,6 +140,10 @@ nav a:hover{
 .audiosbox div audio{
     margin: auto;
 }
+
+div.p1{
+    border: 2px solid #000
+}
  
 /*celular*/
 @media (max-width:670px) {
